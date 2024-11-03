@@ -700,7 +700,7 @@ li.social-links a {
 }
 
 .section.color1 {
-    background-color: #448AFF;
+    background-color: ##fffffe;
 }
 
 .first-section {
@@ -1215,7 +1215,7 @@ li.social-links a {
     top: -7px;
     left: -7px;
     padding: 7px;
-    box-shadow: 0 0 0 2px #fcbf02;
+    box-shadow: 0 0 0 2px #fffffe;
     -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
     -webkit-transform: scale(.8);
     -moz-transition: -moz-transform 0.2s, opacity 0.2s;
