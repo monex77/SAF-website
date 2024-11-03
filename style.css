@@ -557,7 +557,7 @@ li.social-links a {
 }
 
 .slide-text h1 span{
-	color: #fd6802;
+	color: #00b5b8;
 }
 
 .slide-text h2 {
@@ -582,7 +582,7 @@ li.social-links a {
 }
 
 .slider-wrapper .owl-nav .owl-prev:hover, .slider-wrapper .owl-nav .owl-next:hover {
-	background: #fd6802;
+	background: #00b5b8;
 }
 
 .slider-wrapper .owl-nav .owl-prev {
@@ -842,7 +842,7 @@ li.social-links a {
 .portfolio-filter ul li .btn-dark {
     box-shadow: none;
     background-color: transparent;
-    border: 2px solid #fd6802 !important;
+    border: 2px solid #00b5b8 !important;
     color: #393939;
     font-weight: 500;
     font-size: 14px;
@@ -896,7 +896,7 @@ li.social-links a {
 }
 
 .da-thumbs .pitem a div i {
-    background-color: #fd6802;
+    background-color: #00b5b8;
     position: absolute;
     color: #ffffff !important;
     bottom: 0;
@@ -928,7 +928,7 @@ li.social-links a {
 }
 
 .desc h3 i {
-    color: #fd6802;
+    color: #00b5b8;
     font-size: 37px;
     vertical-align: middle;
     margin-right: 12px;
@@ -1326,7 +1326,7 @@ li.social-links a {
 }
 
 .hoverbutton {
-    background-color: #fd6802;
+    background-color: #00b5b8;
     position: absolute;
     color: #ffffff !important;
     top: 48%;
@@ -1558,7 +1558,7 @@ hr.invis1 {
     border-radius: 25px 0px 25px 0px;
     font-size: 26px;
 	color: #ffffff;
-    background-color: #fd6802;
+    background-color: #00b5b8;
     margin: 0 auto 22px;
     position: relative;
     text-align: center;
