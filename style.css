@@ -2929,7 +2929,7 @@ select.mobile-device {
 	color: #00b5b8;
 }
 .page-title-link li::after {
-    background: #fcbf02;
+    background: #fffffe;
     bottom: 8px;
     content: "";
     height: 2px;
