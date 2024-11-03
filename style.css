@@ -2175,7 +2175,7 @@ select.mobile-device {
 }
 
 .footer-distributed .footer-company-name a:hover{
-	color: #fd6802;
+	color: #00b5b8;
 }
 
 
@@ -2285,11 +2285,11 @@ select.mobile-device {
 }
 
 .dmtop:hover {
-	background-color: #fd6802;
+	background-color: #00b5b8;
 }
 
 .icon_wrap {
-    background-color: #fd6802;
+    background-color: #00b5b8;
     width: 100px;
     height: 100px;
     display: block;
@@ -2327,7 +2327,7 @@ select.mobile-device {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #fd6802;
+    background: #00b5b8;
     z-index: 11000;
     position: fixed;
     display: block;
@@ -2800,9 +2800,9 @@ select.mobile-device {
 .btn-light {
     padding: 13px 40px;
     font-size: 18px;
-    border: 2px solid #fd6802;
+    border: 2px solid #00b5b8;
     color: #ffffff;
-    background-color: #fd6802;
+    background-color: #00b5b8;
 }
 
 .btn-dark {
@@ -2815,7 +2815,7 @@ select.mobile-device {
 
 .btn-light:hover,
 .btn-light:focus {
-    border-color: #fd6802;
+    border-color: #00b5b8;
     color: rgba(255, 255, 255);
 	background: #393939;
 }
@@ -2904,7 +2904,7 @@ select.mobile-device {
 	position: relative;
 }
 .banner h2::after {
-    background: #fd6802;
+    background: #00b5b8;
     content: "";
     height: 35px;
     left: -15px;
@@ -2926,7 +2926,7 @@ select.mobile-device {
 	font-weight: 500;
 }
 .page-title-link li a:hover {
-	color: #fd6802;
+	color: #00b5b8;
 }
 .page-title-link li::after {
     background: #fcbf02;
@@ -2969,7 +2969,7 @@ select.mobile-device {
 	color: #393939;
 }
 .about-text h3 a:hover{
-	color: #fd6802;
+	color: #00b5b8;
 }
 
 .about-item:hover .about-icon{
@@ -2978,7 +2978,7 @@ select.mobile-device {
 }
 
 .about-item:hover .about-icon span{
-	color: #fd6802;
+	color: #00b5b8;
 	transition: all 1s ease-in-out;
 }
 
@@ -3000,9 +3000,9 @@ select.mobile-device {
 
 
 :root{
-    --pricingTable-yellow: #fd6802;
-    --pricingTable-purple: #fd6802;
-    --pricingTable-blue: #fd6802;
+    --pricingTable-yellow: #00b5b8;
+    --pricingTable-purple: #00b5b8;
+    --pricingTable-blue: #00b5b8;
 }
 
 .pricingTable{
