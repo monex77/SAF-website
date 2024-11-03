@@ -1569,7 +1569,7 @@ hr.invis1 {
 
 .features-right li i:hover,
 .features-left li i:hover {
-	background: #fcbf02;
+	background: #fffffe;
 }
 
 #features i img {
@@ -2305,7 +2305,7 @@ select.mobile-device {
 .stat-wrap h3 {
     font-size: 22px;
     font-weight: 600;
-    color: #fcbf02;
+    color: #fffffe;
     margin: 0 !important;
     padding: 0 !important;
     line-height: 1 !important:
@@ -2985,7 +2985,7 @@ select.mobile-device {
 
 
 .portfolio-filter ul li .btn-dark.active{
-	background: #fcbf02;
+	background: #fffffe;
 	color: #ffffff;
 }
 
