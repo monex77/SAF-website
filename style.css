@@ -55,7 +55,7 @@ body {
 }
 
 body.demos .section {
-    background: url(images/bg.png) repeat top center #f2f3f5;
+    background: url() repeat top center #f2f3f5;
 }
 
 body.demos .section-title img {
@@ -301,7 +301,7 @@ a img.aligncenter {
     border-radius: 3px;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
     clip: auto !important;
-    color: #21759b;
+    color: #00c7cb;
     display: block;
     font-size: 14px;
     font-size: 0.875rem;
@@ -336,7 +336,7 @@ a img.aligncenter {
 	font-size: 16px;
 }
 .email-box a:hover{
-	color: #fd6802;
+	color: #00b5b8;
 }
 .email-box a i{
 	padding: 0px 5px;
@@ -350,7 +350,7 @@ a img.aligncenter {
 	font-size: 16px;
 }
 .phone-box a:hover{
-	color: #fd6802;
+	color: #00b5b8;
 }
 .phone-box a i{
 	padding: 0px 5px;
@@ -370,7 +370,7 @@ a img.aligncenter {
 	font-size: 20px;
 }
 .social-box ul li a:hover{
-	color: #fd6802;
+	color: #00b5b8;
 }
 
 
@@ -458,7 +458,7 @@ a img.aligncenter {
 	color: #ffffff;
 	box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
 	border-radius: 25px 0px 25px 0px;
-	background: #fd6802;
+	background: #00b5b8;
 }
 
 .header_style_01 .navbar-default .navbar-nav > li:hover a,
@@ -466,7 +466,7 @@ a img.aligncenter {
     color: #ffffff;
 	box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
 	border-radius: 25px 0px 25px 0px;
-	background: #fd6802;
+	background: #00b5b8;
 }
 
 .header_style_01 .navbar-right > li {
