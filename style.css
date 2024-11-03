@@ -2098,7 +2098,7 @@ select.mobile-device {
 
 .footer-links a:hover,
 .footer a:hover {
-    color: #fd6802 !important;
+    color: 00b5b8 !important;
 }
 
 .footer-links li {
@@ -3323,7 +3323,7 @@ select.mobile-device {
 .address-item h3{
 	font-size: 28px;
 	font-weight: 600;
-	color: #fd6802;
+	color: #00b5b8;
 }
 
 
