@@ -3190,7 +3190,7 @@ select.mobile-device {
     height: 25px;
     line-height: 25px;
     border-radius: 50%;
-    background: #98c458;
+    background: #00c7cb;
     text-align: center;
     color: #fff;
     position: absolute;
@@ -3198,7 +3198,7 @@ select.mobile-device {
 }
 .pricingTable .pricing-content li.disable:before{
     content: "\e95f";
-    background: #fe6c6c;
+    background: #01e8ed;
 }
 .pricingTable .pricingTable-signup{
     display: inline-block;
