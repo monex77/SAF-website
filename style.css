@@ -508,21 +508,21 @@ li.social-links a {
 -------------------------------------------------------------------*/
 
 .slider-bg-one {
-    background-image: url("uploads/slider_01.jpg");
+    background-image: url("https://s3.amazonaws.com/introhive-wordpress/wp-content/uploads/2021/07/Accounting-Firm-Business-Development-Team-Talking.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .slider-bg-two {
-    background-image: url("uploads/slider_02.jpg");
+    background-image: url("https://sharpsheets.io/wp-content/uploads/2024/06/Accounting-Firm.jpeg.webp");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .slider-bg-three {
-    background-image: url("uploads/slider_03.jpg");
+    background-image: url("https://bachelors-completion.northeastern.edu/wp-content/uploads/2019/09/Accountant-Hero-1.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
