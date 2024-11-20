@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>SAF CONSULTING</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="./saf (2).png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="loader">
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__ball"></div>
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+    
+	<div class="top-bar">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 col-sm-6">
+					 
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<div class="right-top">
+						<div class="social-box">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss-square" aria-hidden="true"></i></a></li>
+							<ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <header class="header header_style_01">
+        <nav class="megamenu navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="./WhatsApp Image 2024-11-03 at 12.46.49 AM (3).jpeg" alt="image"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="Audit.html">Audit </a></li>
+                        <li><a href="Zakat-And-Taxation.html">Zakat And Taxation</a></li>
+		  <li><a href="Accounting.html">Accounting </a></li>
+                        <li><a href="About-Praxity.html">About Praxity</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+			<li><a href="contact.html">العربية</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+	
+	<div class="slider-area">
+		<div class="slider-wrapper owl-carousel">
+			<div class="slider-item home-one-slider-otem slider-item-four slider-bg-one">
+				<div class="container">
+					<div class="row">
+						<div class="slider-content-area">
+							<div class="slide-text">
+								<h1 class="homepage-three-title"> Your Trusted <span>Accounting </span> Team </h1>
+								<h2> We aspire to be the world’s most exceptional financial institution, united by our shared values of partnership, client service, integrity and excellence. <br></h2>
+								<div class="slider-content-btn">
+							
+									<a class="button btn btn-light btn-radius btn-brd" href="https://wa.me/966541924609?text=">Contact</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider-item text-center home-one-slider-otem slider-item-four slider-bg-two">
+				<div class="container">
+					<div class="row">
+						<div class="slider-content-area">
+							<div class="slide-text">
+								<h1 class="homepage-three-title"> Your Trusted <span> Accounting</span> Team</h1>
+								<h2> We aspire to be the world’s most exceptional financial institution, united by our shared values of partnership, client service, integrity and excellence.<br> </h2>
+								<div class="slider-content-btn">
+									<a class="button btn btn-light btn-radius btn-brd" href="https://wa.me/966541924609?text=">Read More</a>
+						
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider-item home-one-slider-otem slider-item-four slider-bg-three">
+				<div class="container">
+					<div class="row">
+						<div class="slider-content-area">
+							<div class="slide-text">
+								<h1 class="homepage-three-title">Your Trusted <span>Accounting </span>Team</h1>
+								<h2> We aspire to be the world’s most exceptional financial institution, united by our shared values of partnership, client service, integrity and excellence.
+
+<br> </h2>
+								<div class="slider-content-btn">
+									<a class="button btn btn-light btn-radius btn-brd" href="https://wa.me/966541924609?text=">Contact</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div id="about" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">
+                        <h4>About Us</h4>
+                        <h2>Welcome to SAF Consulting </h2>
+                        <p class="lead">SAF certified public accountants </p>
+
+                        <p>SAF Consulting was established 34 years ago, in 1403 AH, corresponding to 1983 AD, as the first professional company to operate in the Kingdom of Saudi Arabia under the license No. 1 registered with the Saudi Organization for Certified Public Accountants (SOCPA). Availingwhatis acquired by its founders through their work with major companies in the world such as Arthur Andersen 1979 – 1980, the company aims to keep pace with the qualitative leap witnessed by the Kingdom in that era and the rapid development in the field of business.</p>
+
+                        <a href="./services.html" class="btn btn-light btn-radius btn-brd grd1">Learn More</a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                        <img src="https://www.umn.ac.id/wp-content/uploads/2022/09/Akuntansi-1200x675.jpg" alt="" class="img-responsive img-rounded">
+                        <a href="https://www.umn.ac.id/wp-content/uploads/2022/09/Akuntansi-1200x675.jpg" data-rel="prettyPhoto[gal]" class="playbutton"><i class="flaticon-play-button"></i></a>
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+
+            <hr class="hr1"> 
+
+            <div class="row">
+				<div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                        <img src="https://media.istockphoto.com/id/949219374/photo/businessperson-calculating-invoice.jpg?s=612x612&w=0&k=20&c=Qeq9veKM4kSfiT78aPy9xslDR4GsfFaSM5WjiXZCNbA=" alt="" class="img-responsive img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+                <div class="col-md-6">
+                    <div class="message-box">
+                        <h4>About Praxity </h4>
+                        <h2>Our Company is a member of Praxity in Saudi Arabia</h2>
+                        
+
+                        <p>Praxity is an innovative, international alliance of 880 offices of best-in-class independent Member Firms. Together, they share their combined expertise from strategic locations around the world, leveraging highly-customized business solutions and deep regional understanding – driving outstanding results and returns for clients in over 120 countries.
+ </p>
+
+                        <a href="./services.html" class="btn btn-light btn-radius btn-brd grd1">Our Services</a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+	<div class="parallax section parallax-off" data-stellar-background-ratio="0.9" style="background-image:url('uploads/parallax_04.jpg');">
+        <div class="container">
+            <div class="row text-center stat-wrap">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-briefcase"></i></span>
+                    <p class="stat_count">34+</p>
+                    <h3>Years of Experience</h3>
+                </div><!-- end col -->
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-happy"></i></span>
+                    <p class="stat_count">+1200</p>
+                    <h3>Active Clients</h3>
+                </div><!-- end col -->
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-idea"></i></span>
+                    <p class="stat_count">100+</p>
+                    <h3>Skilled Staff</h3>
+                </div><!-- end col -->
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-customer-service"></i></span>
+                    <p class="stat_count">1000</p>
+                    <h3>Completed Projects</h3>
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section --><div id="services" class="parallax section lb">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Our Service</h3>
+                <p class="lead"></p>
+            </div><!-- end title -->
+
+            <div class="owl-services owl-carousel owl-theme">
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <a href="https://www.freshbooks.com/wp-content/uploads/2022/03/what-is-auditing.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="https://www.freshbooks.com/wp-content/uploads/2022/03/what-is-auditing.jpg" alt="" class="img-responsive img-rounded">
+                    </div>
+					<div class="service-dit">
+						<h3>Audit & Assurance Services</h3>
+						<p> We provide a comprehensive range of consulting services in accounting, specialized services, technology, and risk management for industries, companies, and organizations to assist our clients in achieving their goals and aspirations</p>
+					</div>
+                </div>
+                <!-- end service -->
+
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <a href="https://img.freepik.com/premium-photo/hand-holding-brown-card-with-text-zakat-blue-background_406607-2583.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="https://img.freepik.com/premium-photo/hand-holding-brown-card-with-text-zakat-blue-background_406607-2583.jpg" alt="" class="img-responsive img-rounded">
+                    </div>
+					<div class="service-dit">
+						<h3>Services For Zakat And Taxation</h3>
+						<p>Our experienced tax and zakat team ensures fundamental compliance with relevant tax and zakat regulations, handling complex issues professionally to navigate the intricacies of the tax landscape within and beyond the Kingdom. We provide comprehensive solutions for a secure tax future.
+					</p>
+					</div>
+                </div>
+                <!-- end service -->
+
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <a href="https://media.istockphoto.com/id/1457706562/photo/accounting-financial-management-diagram-concept.jpg?s=612x612&w=0&k=20&c=OFWqQaD7H1xODZw0tpRw6bl-f17xuQ8WaXQSHNHeUWw=" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="https://media.istockphoto.com/id/1457706562/photo/accounting-financial-management-diagram-concept.jpg?s=612x612&w=0&k=20&c=OFWqQaD7H1xODZw0tpRw6bl-f17xuQ8WaXQSHNHeUWw=" alt="" class="img-responsive img-rounded">
+                    </div>
+					<div class="service-dit">
+						<h3>Accounting And Financial Consultancy</h3>
+						<p>Our business development and risk assessment consulting team is capable of effectively assisting with a wide range of tasks related to business planning and risk evaluation, along with numerous strategic considerations and processes that must be taken into account, emphasizing the importance of focusing on the finer details.</p>
+					</div>
+                </div>
+                <!-- end service -->
+
+                <div class="service-widget">
+                    <div class="post-media wow fadeIn">
+                        <a href="https://advivo.com.au/wp-content/uploads/2022/05/SEO-Blogs-4-1200x600.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="https://advivo.com.au/wp-content/uploads/2022/05/SEO-Blogs-4-1200x600.png" alt="" class="img-responsive img-rounded">
+                    </div>
+					<div class="service-dit">
+						<h3> Services provided</h3>
+						<p>Our specialized team offers tax consultancy services for Value Added Tax (VAT), withholding tax, income tax, zakat, tax and zakat objections, as well as quarterly or monthly filings depending on the nature of the establishment's operations. We also handle form submissions and keep the company updated on the latest regulatory updates, tax laws, and issued directives.<br> </p>
+					</div>
+                </div>
+                <!-- end service -->
+            </div><!-- end row -->
+
+            <hr class="hr1">
+
+            <div class="text-center">
+                <a data-scroll href="./services.html" class="btn btn-light btn-radius btn-brd">View Our Portfolio</a>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+								
+
+     <div class="parallax section noover" data-stellar-background-ratio="0.7" style="background-image:url('uploads/parallax_05.png');">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <div class="customwidget text-left">
+                        <h1>Our Service </h1>
+                        <p> Our Services include<br></p>
+                        <ul class="list-inline">
+                            <li><i class="fa fa-check"></i> Company formation.</li>
+                            <li><i class="fa fa-check"></i> Zakat and tax services.</li>
+                            <li><i class="fa fa-check"></i> Accounting and Auditing.</li>
+                            <li><i class="fa fa-check"></i> Feasibility studies.</li>
+			    <li><i class="fa fa-check"></i>Internal Audit and Control.</li>
+                            <li><i class="fa fa-check"></i> Electronic invoice.</li>
+                        </ul><!-- end list -->
+                        <a href="./about-us.html" data-scroll class="btn btn-light btn-radius btn-brd">Learn More</a>
+                    </div>
+                </div><!-- end col -->
+				<div class="col-md-6">
+                    <div class="text-center image-center hidden-sm hidden-xs">
+                        <img src="" alt="" class="img-responsive wow fadeInUp">
+                    </div>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+    <div id="features" class="section lb">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3> Our Values</h3>
+                <p class="lead"> We seek to deliver value through innovation and work together to help clients achieve success. We commit to continuous learning and sharing knowledge and supporting our clients to celebrate success.</p>
+	    </div><!-- end title -->
+		
+            <div class="row">
+                 
+                        </li>
+                    </ul>
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('uploads/parallax_03.jpg');">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Testimonials</h3>
+                <p class="lead">We thanks for all our awesome testimonials! There are hundreds of our happy customers! <br>Let's see what others say about SAF consulting Company</p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_01.png" alt="" class="img-responsive alignleft">
+                                <h4>Ali Mostafa <small>- Manager of Racer</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                                <p class="lead"> The best support for years.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT47_lEwrvCJ12eNwJ7T_D4z7AEEN8D_qtskRQSYiSal-6smPZis8uY0URuTe-M0HaOnqo&usqp=CAU" alt="" class="img-responsive alignleft">
+                                <h4>Salah Mohammed  <small>Financial manager</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great Team!</h3>
+                                <p class="lead"> Permanent support for the institution </p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="https://img.freepik.com/premium-photo/hijab-woman-business-executive_953680-2381.jpg" alt="" class="img-responsive alignleft">
+                                <h4>Rahma said <small> Financial manager</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_01.png" alt="" class="img-responsive alignleft">
+                                <h4>Ali Ragab <small>- Manager of Racer</small></h4>
+                            </div>
+                           <!-- end testi-meta -->
+                        </div><!-- end testimonial -->
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+
+            <hr class="hr1">
+
+            <div class="row logos">
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="uploads/logo_01.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="uploads/logo_02.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="uploads/logo_03.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="uploads/logo_04.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="uploads/logo_05.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="uploads/logo_06.png" alt="" class="img-repsonsive"></a>
+                </div>
+            </div><!-- end row -->
+
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                             
+                        </div>
+                        <p></p>
+                        <p>SAF Consulting experience and personal attention to our client make doing business easier.</p>
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Quick links</h3>
+                        </div>
+
+                        <ul class="footer-links hov">
+                            <li><a href="#">Home <span class="icon icon-arrow-right2"></span></a></li>
+							<li><a href="#">Blog <span class="icon icon-arrow-right2"></span></a></li>
+							<li><a href="#">Pricing <span class="icon icon-arrow-right2"></span></a></li>
+							<li><a href="#">About <span class="icon icon-arrow-right2"></span></a></li>
+							<li><a href="#">Faq <span class="icon icon-arrow-right2"></span></a></li>
+							<li><a href="#">Contact <span class="icon icon-arrow-right2"></span></a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="footer-distributed widget clearfix">
+                        <div class="widget-title">
+                            <h3>Subscribe</h3>
+							<p></p>
+                        </div>
+						
+						<div class="footer-right">
+							<form method="get" action="#">
+								<input placeholder="Subscribe our newsletter.." name="search">
+								<i class="fa fa-envelope-o"></i>
+							</form>
+						</div>                        
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">SAF Consulting</a>  
+					<a href=""></a></p>
+                </div>
+
+                
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/hoverdir.js"></script>    
+
+</body>
+</html>
