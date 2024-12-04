@@ -1,52 +1,44 @@
-/*------------------------------------------------------------------
-    Version: 1.0
--------------------------------------------------------------------*/
+/*-----------------------------------*\
+  #style.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2022 codewithsadee
+ */
 
 
-/*------------------------------------------------------------------
-    [Table of contents]
-
-    1. IMPORT FONTS
-    2. IMPORT FILES
-    3. SKELETON
-    4. WP CORE
-    5. HEADER
-    6. SECTIONS
-    7. SECTIONS
-    8. PORTFOLIO
-    9. TESTIMONIALS
-    10. PRICING TABLES
-    11. ICON BOXES
-    12. MESSAGE BOXES
-    13. FEATURES
-    14. CONTACT
-    15. FOOTER
-    16. MISC
-    17. BUTTONS
--------------------------------------------------------------------*/
 
 
-/*------------------------------------------------------------------
-    IMPORT FONTS
--------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,900');
+/*-----------------------------------*\
+  #CUSTOM PROPERTY
+\*-----------------------------------*/
 
-/*------------------------------------------------------------------
-    IMPORT FILES
--------------------------------------------------------------------*/
+:root {
 
-@import url(css/animate.css);
-@import url(css/flaticon.css);
-@import url(css/icomoon.css);
-@import url(css/prettyPhoto.css);
-@import url(css/owl.carousel.css);
-@import url(css/font-awesome.min.css);
+  /**
+   * colors
+   */
 
-/*------------------------------------------------------------------
-    SKELETON
--------------------------------------------------------------------*/
+  --dark-jungle-green: hsl(188, 63%, 7%);
+  --prussian-blue: hsl(200, 69%, 14%);
+  --raisin-black-1: hsl(227, 29%, 13%);
+  --raisin-black-2: hsl(229, 17%, 19%);
+  --yellow-green: hsl(89, 72%, 45%);
+  --orange-soda: hsl(9, 100%, 62%);
+  --cultured-1: hsl(0, 0%, 93%);
+  --cultured-2: hsl(192, 24%, 96%);
+  --misty-rose: hsl(7, 56%, 91%);
+  --alice-blue: hsl(210, 100%, 97%);
+  --seashell: hsl(8, 100%, 97%);
+  --cadet: hsl(200, 15%, 43%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --opal: hsl(180, 20%, 62%);
 
+  /**
+   * typography
+   */
 
   --ff-nunito-sans: "Nunito Sans", sans-serif;
   --ff-poppins: "Poppins", sans-serif;
@@ -449,9 +441,6 @@ button, a { transition: var(--transition); }
 
 
 
-
-
- 
 
 /*------------------------------------------------------------------
     Banner Slider
