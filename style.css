@@ -375,259 +375,235 @@ a img.aligncenter {
 
 
 /*------------------------------------------------------------------
-    HEADER
--------------------------------------------------------------------*/
+  /**** 	   03. Header css		 ****/
+/************************************/
 
-.megamenu .nav,
-.megamenu .collapse,
-.megamenu .dropup,
-.megamenu .dropdown {
-    position: static;
+header.main-header{
+	position: relative;
+	background: var(--white-color);
+	border-radius: 30px;
+	border-bottom: 1px solid transparent;
+	z-index: 100;
 }
 
-.megamenu .container-fluid {
-    position: relative;
+header.main-header .header-sticky{
+	padding: 25px 0;
+	position: relative;
+	top: 0;
+	z-index: 100;	
 }
 
-.megamenu .dropdown-menu {
-    left: auto;
+header.main-header .header-sticky.hide{
+	transform: translateY(-100%);
+	transition: transform 0.3s ease-in-out;
+	padding: 15px 0;
+	border-radius: 0;
+	border-bottom: 1px solid #00c7cb;
 }
 
-.megamenu .megamenu-content {
-    padding: 20px 30px;
-}
-
-.megamenu .dropdown.megamenu-fw .dropdown-menu {
-    left: 0;
-    right: 0;
-}
-
-.megamenu .list-unstyled {
-    min-width: 200px;
-}
-
-.header_style_01 {
-    background-color: rgba(255, 255, 255);
-    display: block;
-    left: 0;
-    padding: 20px 40px !important;
-    position: relative;
-    right: 0;
-    top: 0;
-    width: 100%;
-	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.30);
-	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.30);
-	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.30);
-    z-index: 111;
-}
-
-.header_style_01 .navbar-default {
-    background-color: transparent;
-    border: 0;
-	border-radius: 0px;
-}
-
-.header_style_01 .navbar,
-.header_style_01 .navbar-nav,
-.header_style_01 .navbar-default,
-.header_style_01 .nav {
-    margin-bottom: 0 !important;
-}
-
-.header_style_01 .navbar-brand {
-    padding: 2px 15px 0 15px;
-	height: auto;
-}
-
-.header_style_01 .navbar-default .navbar-nav > li > a {
-    border-radius: 0;
-    color: #ffffff;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 600;
-    text-transform: capitalize;
-    background-color: transparent;
-}
-
-.header_style_01 .navbar-default .navbar-nav > li a {
-	color: #333333;
-	padding: 15px 15px;
-}
-
-.header_style_01 .navbar-default .navbar-nav > li a.active{
-	color: #ffffff;
-	box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
-	border-radius: 25px 0px 25px 0px;
-	background: #00b5b8;
-}
-
-.header_style_01 .navbar-default .navbar-nav > li:hover a,
-.header_style_01 .navbar-default .navbar-nav > li:focus a {
-    color: #ffffff;
-	box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
-	border-radius: 25px 0px 25px 0px;
-	background: #00b5b8;
-}
-
-.header_style_01 .navbar-right > li {
-    margin-top: 2px;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.header_style_01 .navbar-right > li > a {
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-li.social-links {
-    margin: 0 8px;
-}
-
-li.social-links a {
-    padding: 13px 0 !important;
-}
-
-.navbar-nav li {
-    position: relative;
-	margin: 0px 10px;
-}
-
-.navbar-nav span {
-    font-size: 24px;
-    position: absolute;
-    right: 2px;
-    top: 13px;
-}
-
-/*------------------------------------------------------------------
-    Banner Slider
--------------------------------------------------------------------*/
-
-.slider-bg-one {
-    background-image: url("https://s3.amazonaws.com/introhive-wordpress/wp-content/uploads/2021/07/Accounting-Firm-Business-Development-Team-Talking.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.slider-bg-two {
-    background-image: url("https://sharpsheets.io/wp-content/uploads/2024/06/Accounting-Firm.jpeg.webp");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.slider-bg-three {
-    background-image: url("https://bachelors-completion.northeastern.edu/wp-content/uploads/2019/09/Accountant-Hero-1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.slider-content-area {
-    height: 100vh;
-    position: relative;
-}
-
-.home-one-slider-otem .slider-content-area {
-    height: 650px;
-    position: relative;
-}
-
-.slide-text {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    z-index: 1;
-}
-
-.slide-text h1 {
-    color: #fff;
-    font-size: 70px;
-    font-weight: 700;
-    text-transform: capitalize;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-             0px 8px 13px rgba(0,0,0,0.1),
-             0px 18px 23px rgba(0,0,0,0.1);
-}
-
-.slide-text h1 span{
-	color: #00b5b8;
-}
-
-.slide-text h2 {
-    color: #fff;
-    font-size: 22px;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-             0px 8px 13px rgba(0,0,0,0.1),
-             0px 18px 23px rgba(0,0,0,0.1);
-}
-
-
-.slider-wrapper .owl-nav .owl-prev, .slider-wrapper .owl-nav .owl-next {
-    background: #444444;
-    height: 60px;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: all 0.4s ease-in-out 0s;
-    width: 60px;
-	border-radius: 25px 0px 25px 0px;
-}
-
-.slider-wrapper .owl-nav .owl-prev:hover, .slider-wrapper .owl-nav .owl-next:hover {
-	background: #00b5b8;
-}
-
-.slider-wrapper .owl-nav .owl-prev {
-    margin-left: 0%;
-	left: 0px;
-	position: absolute;
-}
-
-.slider-wrapper .owl-nav .owl-prev i{
-	position: absolute;
-	left: 0px;
+header.main-header .header-sticky.active{
+	position: fixed;
+	top: 0;
+	left: 0;
 	right: 0;
-	width: auto;
-	height: auto;
-	background: none;
-	color: #ffffff;
+	border-radius: 0;
+	border-bottom: 1px solid #737373;
+    transform: translateY(0);
+	background: var(--white-color);
 }
 
-.slider-wrapper .owl-nav .owl-next {
-    margin-right: 0%;
-    right: 0;
-	position: absolute;
+.navbar{
+	padding: 0;
 }
 
-.slider-wrapper .owl-nav .owl-next i{
-	position: absolute;
-	right: 0;
-	left: 0px;
-	width: auto;
-	height: auto;
-	background: none;
-	color: #ffffff;
+.navbar-brand{
+	padding: 0;
 }
 
-.home-one-slider-otem::before{
-	content: "";
+.main-menu{
+	font-family: var(--default-font);
+	justify-content: flex-end;
+}
+
+.main-menu ul{
+	align-items: center;
+}
+
+.main-menu ul li{
+	margin-left: 30px;
+	position: relative;
+}
+
+.main-menu ul li.submenu > a:after{
+	content: '\f107';
+	font-family: 'FontAwesome';
+	font-weight: 900;
+	font-size: 14px;
+	margin-left: 8px;
+}
+
+.main-menu ul li a{
+	font-size: 16px;
+	font-weight: 500;
+	font-family: var(--accent-font);
+	padding: 12px 6px !important;
+	color: var(--primary-color);
+}
+
+.main-menu ul li.highlighted-menu a{
+	display: block;
+	background: var(--accent-color);
+	color: var(--white-color);
+	padding: 14px 30px !important;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+	transition: 0.2s transform ease-in-out;
+}
+
+.main-menu ul li.highlighted-menu a::before{
+	content: '';
+    position: absolute;
+    width: 0;
+    height: 104%;
+    top: 50%;
+    left: 50%;
+    background: var(--primary-color);
+    opacity: 0;
+    z-index: -1;
+    transform: translateX(-51%) translateY(-51%);
+    transition: all 0.4s;
+}
+
+.main-menu ul li.highlighted-menu a:hover::before{
+	width: 106%;
+	opacity: 1;
+}
+
+.main-menu ul li.highlighted-menu a:hover::after{
+	transform: translate(0, 0);
+}
+
+.main-menu ul li.highlighted-menu a:hover{
+	color: var(--white-color);
+}
+
+.main-menu ul li a:hover,
+.main-menu ul li a:focus{
+	color: var(--accent-color);
+}
+
+.main-menu ul ul{
+	visibility: hidden;
+	opacity: 0;
+	transform: scaleY(0.8);
+	transform-origin: top;
+	padding: 8px 0;
+	margin: 0;
+	list-style: none;
+	width: 220px;
+	border-radius: 20px;
 	position: absolute;
-	background: rgba(0,0,0, 0.8);
-	width: 100%;
-	height: 100%;
-	top: 0%;
+	left: 0;
+	top: 100%;
+	overflow: hidden;
+	background-color: var(--accent-color);
+	transition: all .3s ease-in-out;
+}
+
+.main-menu ul ul ul{
 	left: 100%;
-	z-index: 1
+	top: 0;
 }
 
+.main-menu ul ul li{
+	margin: 0;
+	padding: 0;
+}
+
+.main-menu ul ul li a{
+	color: var(--white-color);
+	padding: 8px 20px !important;
+}
+
+.main-menu ul li:hover > ul{
+	visibility: visible;
+	opacity: 1;
+	transform: scaleY(1);
+}
+
+.main-menu ul ul li a:hover{
+	color: var(--white-color);
+	background: #ffffff20;
+}
+
+.responsive-menu,
+.navbar-toggle{
+	display: none;
+}
+
+.responsive-menu{
+	top: 15px;
+	position: relative;
+}
+
+.slicknav_btn{
+	background: var(--accent-color);
+	padding: 6px 0 0;
+	width: 38px;
+	height: 38px;
+	margin: 0;
+	border-radius: 5px;
+}
+
+.slicknav_icon .slicknav_icon-bar{
+	display: block;
+	width: 100%;
+	height: 3px;
+	width: 22px;
+	background-color: var(--white-color);
+	margin: 4px auto !important;
+}
+
+.slicknav_menu{
+	padding: 0;
+	background: var(--accent-color);
+	border-radius: 5px;
+}
+
+.slicknav_nav{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.slicknav_nav .slicknav_row,
+.slicknav_nav li a{
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px 15px;
+	font-family: var(--accent-font);
+	color: var(--white-color);
+}
+
+.slicknav_nav a:hover,
+.slicknav_nav .slicknav_row:hover{
+	background-color: transparent;
+	color: var(--primary-color);
+}
+
+.slicknav_arrow{
+	font-size: 0 !important;
+}
+
+.slicknav_arrow:after{
+	content: '\f105';
+	font-family: 'FontAwesome';
+	font-weight: 900;
+	font-size: 12px;
+	margin-left: 8px;
+	color: var(--white-color);
+}
 
 /*------------------------------------------------------------------
     SECTIONS
