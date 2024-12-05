@@ -380,7 +380,7 @@ a img.aligncenter {
 
 .navbar-default {
     background-color: #ffffff;
-    
+    border-color: #ffffff;
     padding: 20px;
 }
 
@@ -459,7 +459,7 @@ a img.aligncenter {
     line-height: 1.42857143;
     color: #ffffff;
     white-space: nowrap;
-    font-family: serif;
+    font-family: Raleway;
 }
 
 
