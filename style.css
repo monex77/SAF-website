@@ -426,7 +426,7 @@ a img.aligncenter {
 .dropdown-menu > li > a:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #606060 !important;
+    background-color: #ffffff !important;
 }
 .dropdown-menu {
     position: absolute;
