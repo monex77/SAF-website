@@ -381,12 +381,12 @@ a img.aligncenter {
 .navbar-default {
  background-color: #ffffff;
  border-color: #ffffff;	
-    padding: 30px;
+    padding: 10px;
 }
 
 .navbar-brand > img {
     display: block;
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 .navbar-default .navbar-nav > li > a {
