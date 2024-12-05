@@ -393,7 +393,7 @@ a img.aligncenter {
     color: #595858;
     padding: 8px 25px 8px 25px;
     margin:5px 0px;
-    border-radius: 5px;
+    border-radius: 3px;
     font-weight: bold;
     font-family: Raleway;
 }
@@ -404,7 +404,7 @@ a img.aligncenter {
 .navbar-default .navbar-nav > li > a:focus {
     color: #fff;
     background-color: #00c7cb;
-    border-radius: 1px;
+    border-radius: 3px;
     padding: 8px 25px 8px 25px;
 }
 
