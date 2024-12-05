@@ -426,7 +426,7 @@ a img.aligncenter {
 .dropdown-menu > li > a:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #ffffff !important;
+    background-color: #242424 !important;
 }
 .dropdown-menu {
     position: absolute;
@@ -445,7 +445,10 @@ a img.aligncenter {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: none;
-    
+    border-radius: 3px !important;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    margin-left: 30px;
 }
 
 .dropdown-menu > li > a {
