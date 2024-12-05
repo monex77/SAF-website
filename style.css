@@ -386,7 +386,7 @@ a img.aligncenter {
 
 .navbar-brand > img {
     display: block;
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -404,7 +404,7 @@ a img.aligncenter {
 .navbar-default .navbar-nav > li > a:focus {
     color: #fff;
     background-color: #00c7cb;
-    border-radius: 3px;
+    border-radius: 1px;
     padding: 8px 25px 8px 25px;
 }
 
