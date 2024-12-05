@@ -381,19 +381,19 @@ a img.aligncenter {
 .navbar-default {
  background-color: #ffffff;
  border-color: #ffffff;	
-    padding: 10px;
+    padding: 20px;
 }
 
 .navbar-brand > img {
     display: block;
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
 .navbar-default .navbar-nav > li > a {
     color: #595858;
     padding: 8px 25px 8px 25px;
     margin:5px 0px;
-    border-radius: 3px;
+    border-radius: 5px;
     font-weight: bold;
     font-family: Raleway;
 }
