@@ -454,7 +454,7 @@ a img.aligncenter {
 .dropdown-menu > li > a {
     display: block;
     padding: 8px 20px;
-    clear: both;
+   
     font-weight: normal;
     line-height: 1.42857143;
     color: #2dc7ca;
