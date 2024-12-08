@@ -546,15 +546,15 @@ a img.aligncenter {
 }
 
 .slider-wrapper .owl-nav .owl-prev {
-    margin-left: 0%;
-	left: 0px;
+    margin-right: 0%;
+	right: 0px;
 	position: absolute;
 }
 
 .slider-wrapper .owl-nav .owl-prev i{
 	position: absolute;
-	left: 0px;
-	right: 0;
+	right: 0px;
+	left: 0;
 	width: auto;
 	height: auto;
 	background: none;
