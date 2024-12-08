@@ -584,7 +584,7 @@ a img.aligncenter {
 	width: 100%;
 	height: 100%;
 	top: 0%;
-	left: 100%;
+	right: 100%;
 	z-index: 1
 }
 
@@ -1025,7 +1025,7 @@ a img.aligncenter {
     margin: 15px 30px 0 30px;
     padding: 0 10px 15px 30px;
     border-bottom: 1px solid #ececec;
-    text-align: left;
+    text-align: right;
     line-height: 30px;
     font-size: 16px;
     color: #c2c2c2;
@@ -1345,7 +1345,7 @@ hr.invis1 {
     height: 40px;
     bottom: -20px;
     left: 50%;
-    margin-left: -14px;
+    margin-right: -14px;
     background-color: #1f1f1f;
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -1361,7 +1361,7 @@ hr.invis1 {
     height: 40px;
     top: -20px;
     left: 50%;
-    margin-left: -14px;
+    margin-right: -14px;
     background-color: #1f1f1f;
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -1576,7 +1576,7 @@ hr.invis1 {
 }
 
 .fr-inner {
-    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .features-left i {
@@ -1585,7 +1585,7 @@ hr.invis1 {
 
 .fl-inner {
     text-align: right;
-    margin-right: 90px;
+    margin-left: 90px;
 }
 
 #features h4 {
@@ -1607,7 +1607,7 @@ hr.invis1 {
 
 .bootstrap-select > .dropdown-toggle {
     width: 100%;
-    padding-right: 25px;
+    padding-left: 25px;
 }
 
 .has-error .bootstrap-select .dropdown-toggle,
@@ -1811,8 +1811,8 @@ hr.invis1 {
 
 .bootstrap-select.show-menu-arrow .dropdown-toggle:before {
     content: '';
-    border-left: 7px solid transparent;
     border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
     border-bottom: 7px solid rgba(204, 204, 204, 0.2);
     position: absolute;
     bottom: -4px;
@@ -1846,13 +1846,13 @@ hr.invis1 {
 }
 
 .bootstrap-select.show-menu-arrow.pull-right .dropdown-toggle:before {
-    right: 12px;
-    left: auto;
+    left: 12px;
+    right: auto;
 }
 
 .bootstrap-select.show-menu-arrow.pull-right .dropdown-toggle:after {
-    right: 13px;
-    left: auto;
+    left: 13px;
+    right: auto;
 }
 
 .bootstrap-select.show-menu-arrow.open > .dropdown-toggle:before,
@@ -1867,7 +1867,7 @@ hr.invis1 {
 }
 
 .bs-actionsbox {
-    float: left;
+    float: right;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1879,7 +1879,7 @@ hr.invis1 {
 }
 
 .bs-donebutton {
-    float: left;
+    float: right;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -2336,35 +2336,35 @@ select.mobile-device {
   box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
 .loader__bar:nth-child(1) {
-  left: 0px;
+  right: 0px;
   -webkit-transform: scale(1, 0.2);
           transform: scale(1, 0.2);
   -webkit-animation: barUp1 4s infinite;
           animation: barUp1 4s infinite;
 }
 .loader__bar:nth-child(2) {
-  left: 15px;
+  right: 15px;
   -webkit-transform: scale(1, 0.4);
           transform: scale(1, 0.4);
   -webkit-animation: barUp2 4s infinite;
           animation: barUp2 4s infinite;
 }
 .loader__bar:nth-child(3) {
-  left: 30px;
+  right: 30px;
   -webkit-transform: scale(1, 0.6);
           transform: scale(1, 0.6);
   -webkit-animation: barUp3 4s infinite;
           animation: barUp3 4s infinite;
 }
 .loader__bar:nth-child(4) {
-  left: 45px;
+  right: 45px;
   -webkit-transform: scale(1, 0.8);
           transform: scale(1, 0.8);
   -webkit-animation: barUp4 4s infinite;
           animation: barUp4 4s infinite;
 }
 .loader__bar:nth-child(5) {
-  left: 60px;
+  right: 60px;
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
   -webkit-animation: barUp5 4s infinite;
@@ -2373,7 +2373,7 @@ select.mobile-device {
 .loader__ball {
   position: absolute;
   bottom: 10px;
-  left: 0;
+  right: 0;
   width: 10px;
   height: 10px;
   background: #fff;
@@ -2744,7 +2744,7 @@ select.mobile-device {
 
 .navbar-default .btn-light {
     padding: 0 20px;
-    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .nav-pills,
@@ -2788,7 +2788,7 @@ select.mobile-device {
 .fixed-menu .navbar-default{
 	position: fixed;
 	visibility: hidden;
-	left: 0px;
+	right: 0px;
 	top: 0px;
 	width: 100%;
 	padding: 0px 0px;
@@ -2843,7 +2843,7 @@ select.mobile-device {
 	content: "";
 	display: inline-block;
 	height: 100%;
-	left: 0;
+	right: 0;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -2867,7 +2867,7 @@ select.mobile-device {
     background: #0da3df;
     content: "";
     height: 35px;
-    left: -15px;
+    right: -15px;
     position: absolute;
     top: 8px;
     width: 6px;
@@ -2986,7 +2986,7 @@ select.mobile-device {
     background: var(--pricingTable-yellow);
     position: absolute;
     top: -150px;
-    left: 0;
+    right: 0;
     transform: skewY(-20deg);
 }
 .pricingTable .pricingTable-header{
@@ -3059,7 +3059,7 @@ select.mobile-device {
     border-bottom: none;
     position: absolute;
     top: -60px;
-    left: 50%;
+    right: 50%;
     transform: translateX(-50%) scaleY(0.5) rotate(45deg);
 }
 .pricingTable .price-value:after{
@@ -3092,7 +3092,7 @@ select.mobile-device {
     border-right: none;
     position: absolute;
     top: -48px;
-    left: 50%;
+    right: 50%;
     z-index: -1;
     transform: translateX(-50%) scaleY(0.5) rotate(45deg);
 }
@@ -3132,7 +3132,7 @@ select.mobile-device {
     padding: 50px 0 0 80px;
     margin-bottom: 20px;
     list-style: none;
-    text-align: left;
+    text-align: right;
     transition: all 0.3s ease 0s;
 }
 .pricingTable .pricing-content li{
