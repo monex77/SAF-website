@@ -434,12 +434,12 @@ a img.aligncenter {
     left: 0;
     z-index: 1000;
     display: none;
-    float: left;
+    float: right;
     min-width: 230px;
     padding: 0px 0;
     margin: 2px 0 0;
     font-size: 18px;
-    text-align: left;
+    text-align: right;
     list-style: none;
     background-color: #fff;
     -webkit-background-clip: padding-box;
@@ -1059,7 +1059,7 @@ a img.aligncenter {
 .nav-pills > li {
     width: 50%;
     padding: 10px;
-    float: left;
+    float: right;
     margin: 0 !important;
 }
 
@@ -1685,7 +1685,7 @@ hr.invis1 {
     display: inline-block;
     overflow: hidden;
     width: 100%;
-    text-align: left;
+    text-align: right;
 }
 
 .bootstrap-select.btn-group .dropdown-toggle .fa-angle-down {
@@ -2097,7 +2097,7 @@ select.mobile-device {
     background-color: #1f1f1f;
     box-sizing: border-box;
     width: 100%;
-    text-align: left;
+    text-align: right;
     padding: 50px 60px;
     overflow: hidden;
 }
@@ -2991,7 +2991,7 @@ select.mobile-device {
 }
 .pricingTable .pricingTable-header{
     padding: 20px 20px 60px;
-    text-align: left;
+    text-align: right;
     position: relative;
 }
 .pricingTable .title{
