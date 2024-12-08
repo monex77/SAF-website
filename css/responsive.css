@@ -227,8 +227,8 @@
 		border-radius: 15px 0px 15px 0px; 
     }
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-		border-color: #00c7cb;
-		background-color: #00c7cb;
+		border-color: #0da3df;
+		background-color: #0da3df;
 	}
     .navbar-default .navbar-collapse,
     .navbar-default .navbar-form {
