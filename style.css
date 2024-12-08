@@ -336,7 +336,7 @@ a img.aligncenter {
 	font-size: 16px;
 }
 .email-box a:hover{
-	color: #00b5b8;
+	color: #0da3df;
 }
 .email-box a i{
 	padding: 0px 5px;
@@ -350,7 +350,7 @@ a img.aligncenter {
 	font-size: 16px;
 }
 .phone-box a:hover{
-	color: #00b5b8;
+	color: #0da3df;
 }
 .phone-box a i{
 	padding: 0px 5px;
@@ -370,7 +370,7 @@ a img.aligncenter {
 	font-size: 20px;
 }
 .social-box ul li a:hover{
-	color: #00b5b8;
+	color: #0da3df;
 }
 
 
@@ -403,7 +403,7 @@ a img.aligncenter {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #fff;
-    background-color: #00c7cb;
+    background-color: #0da3df;
     border-radius: 5px;
     padding: 8px 25px 8px 25px;
 }
@@ -412,7 +412,7 @@ a img.aligncenter {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     color: #fff;
-    background-color: #00c7cb;
+    background-color: #0da3df;
 }
 
 .navbar-default .navbar-nav > .open > a,
@@ -517,7 +517,7 @@ a img.aligncenter {
 }
 
 .slide-text h1 span{
-	color: #00b5b8;
+	color: #0da3df;
 }
 
 .slide-text h2 {
@@ -542,7 +542,7 @@ a img.aligncenter {
 }
 
 .slider-wrapper .owl-nav .owl-prev:hover, .slider-wrapper .owl-nav .owl-next:hover {
-	background: #00b5b8;
+	background: #0da3df;
 }
 
 .slider-wrapper .owl-nav .owl-prev {
@@ -802,7 +802,7 @@ a img.aligncenter {
 .portfolio-filter ul li .btn-dark {
     box-shadow: none;
     background-color: transparent;
-    border: 2px solid #00b5b8 !important;
+    border: 2px solid #0da3df !important;
     color: #444444;
     font-weight: 500;
     font-size: 14px;
@@ -856,7 +856,7 @@ a img.aligncenter {
 }
 
 .da-thumbs .pitem a div i {
-    background-color: #00b5b8;
+    background-color: #0da3df;
     position: absolute;
     color: #ffffff !important;
     bottom: 0;
@@ -888,7 +888,7 @@ a img.aligncenter {
 }
 
 .desc h3 i {
-    color: #00b5b8;
+    color: #0da3df;
     font-size: 37px;
     vertical-align: middle;
     margin-right: 12px;
@@ -1286,7 +1286,7 @@ a img.aligncenter {
 }
 
 .hoverbutton {
-    background-color: #00b5b8;
+    background-color: #0da3df;
     position: absolute;
     color: #ffffff !important;
     top: 48%;
@@ -1518,7 +1518,7 @@ hr.invis1 {
     border-radius: 25px 0px 25px 0px;
     font-size: 26px;
 	color: #ffffff;
-    background-color: #00b5b8;
+    background-color: #0da3df;
     margin: 0 auto 22px;
     position: relative;
     text-align: center;
@@ -1612,7 +1612,7 @@ hr.invis1 {
 
 .has-error .bootstrap-select .dropdown-toggle,
 .error .bootstrap-select .dropdown-toggle {
-    border-color: #b94a48;
+    border-color: #0da3df;
 }
 
 .bootstrap-select.fit-width {
@@ -2135,7 +2135,7 @@ select.mobile-device {
 }
 
 .footer-distributed .footer-company-name a:hover{
-	color: #00b5b8;
+	color: #0da3df;
 }
 
 
@@ -2245,11 +2245,11 @@ select.mobile-device {
 }
 
 .dmtop:hover {
-	background-color: #00b5b8;
+	background-color: #0da3df;
 }
 
 .icon_wrap {
-    background-color: #00b5b8;
+    background-color: #0da3df;
     width: 100px;
     height: 100px;
     display: block;
@@ -2287,7 +2287,7 @@ select.mobile-device {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #00b5b8;
+    background: #0da3df;
     z-index: 11000;
     position: fixed;
     display: block;
@@ -2760,9 +2760,9 @@ select.mobile-device {
 .btn-light {
     padding: 13px 40px;
     font-size: 18px;
-    border: 2px solid #00b5b8;
+    border: 2px solid #0da3df;
     color: #ffffff;
-    background-color: #00b5b8;
+    background-color: #0da3df;
 }
 
 .btn-dark {
@@ -2775,7 +2775,7 @@ select.mobile-device {
 
 .btn-light:hover,
 .btn-light:focus {
-    border-color: #00b5b8;
+    border-color: #0da3df;
     color: rgba(255, 255, 255);
 	background: #393939;
 }
@@ -2864,7 +2864,7 @@ select.mobile-device {
 	position: relative;
 }
 .banner h2::after {
-    background: #00b5b8;
+    background: #0da3df;
     content: "";
     height: 35px;
     left: -15px;
@@ -2886,7 +2886,7 @@ select.mobile-device {
 	font-weight: 500;
 }
 .page-title-link li a:hover {
-	color: #00b5b8;
+	color: #0da3df;
 }
 .page-title-link li::after {
     background: #fffffe;
@@ -2929,7 +2929,7 @@ select.mobile-device {
 	color: #393939;
 }
 .about-text h3 a:hover{
-	color: #00b5b8;
+	color: #0da3df;
 }
 
 .about-item:hover .about-icon{
@@ -2938,7 +2938,7 @@ select.mobile-device {
 }
 
 .about-item:hover .about-icon span{
-	color: #00b5b8;
+	color: #0da3df;
 	transition: all 1s ease-in-out;
 }
 
@@ -2960,9 +2960,9 @@ select.mobile-device {
 
 
 :root{
-    --pricingTable-yellow: #00b5b8;
-    --pricingTable-purple: #00b5b8;
-    --pricingTable-blue: #00b5b8;
+    --pricingTable-yellow: #0da3df;
+    --pricingTable-purple: #0da3df;
+    --pricingTable-blue: #0da3df;
 }
 
 .pricingTable{
@@ -3150,7 +3150,7 @@ select.mobile-device {
     height: 25px;
     line-height: 25px;
     border-radius: 50%;
-    background: #00c7cb;
+    background: #0da3df;
     text-align: center;
     color: #fff;
     position: absolute;
@@ -3283,7 +3283,7 @@ select.mobile-device {
 .address-item h3{
 	font-size: 28px;
 	font-weight: 600;
-	color: #00b5b8;
+	color: #0da3df;
 }
 
 
