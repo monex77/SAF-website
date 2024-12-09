@@ -42,8 +42,8 @@
   text-align: center;
 }
 .fa-ul {
-  padding-left: 0;
-  margin-left: 2.14285714em;
+  padding-right: 0;
+  margin-right: 2.14285714em;
   list-style-type: none;
 }
 .fa-ul > li {
@@ -51,43 +51,43 @@
 }
 .fa-li {
   position: absolute;
-  left: -2.14285714em;
+  right: -2.14285714em;
   width: 2.14285714em;
   top: 0.14285714em;
   text-align: center;
 }
 .fa-li.fa-lg {
-  left: -1.85714286em;
+  right: -1.85714286em;
 }
 .fa-border {
   padding: .2em .25em .15em;
   border: solid 0.08em #eeeeee;
   border-radius: .1em;
 }
-.fa-pull-left {
-  float: left;
-}
 .fa-pull-right {
   float: right;
 }
+.fa-pull-right {
+  float:right;
+}
+.fa.fa-pull-left {
+  margin-left: .3em;
+}
 .fa.fa-pull-left {
   margin-right: .3em;
-}
-.fa.fa-pull-right {
-  margin-left: .3em;
 }
 /* Deprecated as of 4.4.0 */
 .pull-right {
   float: right;
 }
-.pull-left {
-  float: left;
-}
-.fa.pull-left {
-  margin-right: .3em;
+.pull-right {
+  float: right;
 }
 .fa.pull-right {
   margin-left: .3em;
+}
+.fa.pull-left {
+  margin-right: .3em;
 }
 .fa-spin {
   -webkit-animation: fa-spin 2s infinite linear;
@@ -165,7 +165,7 @@
 .fa-stack-1x,
 .fa-stack-2x {
   position: absolute;
-  left: 0;
+  right: 0;
   width: 100%;
   text-align: center;
 }
@@ -270,7 +270,7 @@
 .fa-play-circle-o:before {
   content: "\f01d";
 }
-.fa-rotate-right:before,
+.fa-rotate-left:before,
 .fa-repeat:before {
   content: "\f01e";
 }
@@ -337,13 +337,13 @@
 .fa-text-width:before {
   content: "\f035";
 }
-.fa-align-left:before {
+.fa-align-right:before {
   content: "\f036";
 }
 .fa-align-center:before {
   content: "\f037";
 }
-.fa-align-right:before {
+.fa-align-left:before {
   content: "\f038";
 }
 .fa-align-justify:before {
@@ -422,10 +422,10 @@
 .fa-eject:before {
   content: "\f052";
 }
-.fa-chevron-left:before {
+.fa-chevron-right:before {
   content: "\f053";
 }
-.fa-chevron-right:before {
+.fa-chevron-left:before {
   content: "\f054";
 }
 .fa-plus-circle:before {
@@ -458,10 +458,10 @@
 .fa-ban:before {
   content: "\f05e";
 }
-.fa-arrow-left:before {
+.fa-arrow-right:before {
   content: "\f060";
 }
-.fa-arrow-right:before {
+.fa-arrow-left:before {
   content: "\f061";
 }
 .fa-arrow-up:before {
@@ -656,10 +656,10 @@
 .fa-certificate:before {
   content: "\f0a3";
 }
-.fa-hand-o-right:before {
+.fa-hand-o-left:before {
   content: "\f0a4";
 }
-.fa-hand-o-left:before {
+.fa-hand-o-right:before {
   content: "\f0a5";
 }
 .fa-hand-o-up:before {
@@ -668,10 +668,10 @@
 .fa-hand-o-down:before {
   content: "\f0a7";
 }
-.fa-arrow-circle-left:before {
+.fa-arrow-circle-right:before {
   content: "\f0a8";
 }
-.fa-arrow-circle-right:before {
+.fa-arrow-circle-left:before {
   content: "\f0a9";
 }
 .fa-arrow-circle-up:before {
@@ -777,10 +777,10 @@
 .fa-caret-up:before {
   content: "\f0d8";
 }
-.fa-caret-left:before {
+.fa-caret-right:before {
   content: "\f0d9";
 }
-.fa-caret-right:before {
+.fa-caret-left:before {
   content: "\f0da";
 }
 .fa-columns:before {
@@ -804,7 +804,7 @@
 .fa-linkedin:before {
   content: "\f0e1";
 }
-.fa-rotate-left:before,
+.fa-rotate-right:before,
 .fa-undo:before {
   content: "\f0e2";
 }
@@ -893,10 +893,10 @@
 .fa-plus-square:before {
   content: "\f0fe";
 }
-.fa-angle-double-left:before {
+.fa-angle-double-right:before {
   content: "\f100";
 }
-.fa-angle-double-right:before {
+.fa-angle-double-left:before {
   content: "\f101";
 }
 .fa-angle-double-up:before {
@@ -905,10 +905,10 @@
 .fa-angle-double-down:before {
   content: "\f103";
 }
-.fa-angle-left:before {
+.fa-angle-right:before {
   content: "\f104";
 }
-.fa-angle-right:before {
+.fa-angle-left:before {
   content: "\f105";
 }
 .fa-angle-up:before {
@@ -933,10 +933,10 @@
 .fa-circle-o:before {
   content: "\f10c";
 }
-.fa-quote-left:before {
+.fa-quote-right:before {
   content: "\f10d";
 }
-.fa-quote-right:before {
+.fa-quote-left:before {
   content: "\f10e";
 }
 .fa-spinner:before {
@@ -1049,10 +1049,10 @@
 .fa-maxcdn:before {
   content: "\f136";
 }
-.fa-chevron-circle-left:before {
+.fa-chevron-circle-right:before {
   content: "\f137";
 }
-.fa-chevron-circle-right:before {
+.fa-chevron-circle-left:before {
   content: "\f138";
 }
 .fa-chevron-circle-up:before {
@@ -1126,8 +1126,8 @@
 .fa-caret-square-o-up:before {
   content: "\f151";
 }
-.fa-toggle-right:before,
-.fa-caret-square-o-right:before {
+.fa-toggle-left:before,
+.fa-caret-square-o-left:before {
   content: "\f152";
 }
 .fa-euro:before,
@@ -1242,10 +1242,10 @@
 .fa-long-arrow-up:before {
   content: "\f176";
 }
-.fa-long-arrow-left:before {
+.fa-long-arrow-right:before {
   content: "\f177";
 }
-.fa-long-arrow-right:before {
+.fa-long-arrow-left:before {
   content: "\f178";
 }
 .fa-apple:before {
@@ -1309,14 +1309,14 @@
 .fa-stack-exchange:before {
   content: "\f18d";
 }
-.fa-arrow-circle-o-right:before {
+.fa-arrow-circle-o-left:before {
   content: "\f18e";
 }
-.fa-arrow-circle-o-left:before {
+.fa-arrow-circle-o-right:before {
   content: "\f190";
 }
-.fa-toggle-left:before,
-.fa-caret-square-o-left:before {
+.fa-toggle-right:before,
+.fa-caret-square-o-right:before {
   content: "\f191";
 }
 .fa-dot-circle-o:before {
