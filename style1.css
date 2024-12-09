@@ -219,17 +219,17 @@ div.aligncenter {
 }
 
 .alignright {
-    float: right;
+    float: left;
     margin: 10px 0 20px 20px;
 }
 
 .alignleft {
-    float: left;
+    float: right;
     margin: 10px 20px 20px 0;
 }
 
 a img.alignright {
-    float: right;
+    float: left;
     margin: 10px 0 20px 20px;
 }
 
@@ -238,7 +238,7 @@ a img.alignnone {
 }
 
 a img.alignleft {
-    float: left;
+    float: right;
     margin: 10px 20px 20px 0;
 }
 
@@ -307,7 +307,7 @@ a img.aligncenter {
     font-size: 0.875rem;
     font-weight: bold;
     height: auto;
-    left: 5px;
+    right: 5px;
     line-height: normal;
     padding: 15px 23px 14px;
     text-decoration: none;
@@ -431,7 +431,7 @@ a img.aligncenter {
 .dropdown-menu {
     position: absolute;
     top: 100%;
-    left: 0;
+    right: 0;
     z-index: 1000;
     display: none;
     float: left;
@@ -448,7 +448,7 @@ a img.aligncenter {
     border-radius: 5px !important;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .dropdown-menu > li > a {
