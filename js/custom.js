@@ -1,7 +1,7 @@
 /******************************************
     Version: 1.0
 /****************************************** */
-npm install sass postcss-cli autoprefixer
+ 
 
 (function ($) {
     "use strict";
