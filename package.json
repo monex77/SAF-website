@@ -1,0 +1,16 @@
+{
+  "name": "saf-website",
+  "version": "1.0.0",
+  "description": "Company website for SAF, converted to work with Stackbit and editable CMS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./ -p 8080",
+    "build": "echo 'No build process needed for plain HTML'",
+    "deploy": "netlify deploy --prod"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
