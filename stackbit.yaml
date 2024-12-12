@@ -1,0 +1,22 @@
+# stackbit.yaml
+version: 0.3.0
+
+stackbit:
+  siteName: SAF Website
+  siteId: YOUR_STACKBIT_SITE_ID  # Replace with your Stackbit site ID
+  environment: development
+
+pages:
+  - name: Home
+    path: /
+    file: index.html
+
+assets:
+  publicPath: /static
+
+backend:
+  name: filesystem
+  branch: main
+
+dependencies:
+  - node
