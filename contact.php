@@ -42,10 +42,10 @@ if(get_magic_quotes_gpc()) {
 
 // Configuration option.
 // Enter the email address that you want to emails to be sent to.
-// Example $address = "azaljasser@saudiauditors.com";
+// Example $address = "info@safcpa.com";
 
-//$address = "azaljasser@saudiauditors.com";
-$address = "azaljasser@saudiauditors.com";
+//$address = "info@safcpa.com";
+$address = "info@safcpa.com";
 
 
 // Configuration option.
