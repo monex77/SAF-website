@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main # Or the branch you are using
 
-media_folder: "assets/uploads" # Path to upload images
-public_folder: "/assets/uploads"
+media_folder: "./../." # Path to upload images
+public_folder: "./../."
 
 collections:
   - name: "pages" # Identifier, must be unique
