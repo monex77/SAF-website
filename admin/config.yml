@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main  # Replace 'main' with your repository's default branch
 
-media_folder: "assets/uploads"  # Path where uploaded media files are stored in your repo
-public_folder: "/assets/uploads"  # Public path for accessing media files
+media_folder: "./uploads"  # Path where uploaded media files are stored in your repo
+public_folder: "/./uploads"  # Public path for accessing media files
 
 collections:
   - name: "pages"
