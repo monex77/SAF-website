@@ -1,17 +1,15 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: main # Or the branch you are using
 
-media_folder: "images"
-public_folder: "/images"
+media_folder: "assets/uploads" # Path to upload images
+public_folder: "/assets/uploads"
 
 collections:
-  - name: "pages"
+  - name: "pages" # Identifier, must be unique
     label: "Pages"
-    files:
-      - label: "Home Page"
-        name: "home"
-        file: "index.html"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Content", name: "content", widget: "markdown" }
+    folder: "" # Root folder of your site
+    create: true
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "body", label: "Body", widget: "markdown" }
