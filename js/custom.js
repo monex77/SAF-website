@@ -6,10 +6,30 @@
 (function ($) {
     "use strict";
 
+	// إنشاء عميل Contentful
+const client = contentful.createClient({
+  space: '01t5ay3etjcm',
+  accessToken: 'P4P__beF_CYowdKATVjyNb3_kZPbO4nDf0eAdf7P-nk'
+});
+
+// جلب البيانات وعرضها في DOM
+client.getEntries()
+  .then((response) => {
+    const container = document.getElementById('content-container');
+    response.items.forEach(item => {
+      const title = document.createElement('h2');
+      title.textContent = item.fields.title; // افترض أن لديك حقل "title"
+      container.appendChild(title);
+    });
+  })
+  .catch((error) => {
+    console.error('Error fetching content:', error);
+  });
+
     /* ==============================================
      Fixed menu
-     =============================================== */
-
+     =============================================== *
+	
     $(window).on('scroll', function () {
         if ($(window).scrollTop() > 50) {
             $('.header_style_01').addClass('fixed-menu');
